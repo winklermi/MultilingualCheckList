@@ -8,7 +8,11 @@ from transformers import (
     DataCollatorWithPadding,
 )
 from datasets import load_dataset
+from huggingface_hub import login, HfApi
 import numpy as np
+
+# log in to huggingface
+login()
 
 # Load dataset
 tweet_sentiment = load_dataset("cardiffnlp/tweet_sentiment_multilingual", "all") # load all languages
@@ -79,4 +83,10 @@ trainer = Trainer(
 
 # Train and save model
 trainer.train()
-trainer.save_model("./models/mBERT_sentiment")
+trainer.save_model("./models/SentiMBERT")
+
+# push model files to huggingface
+repo_name = "mi-winkler/SentiMBERT"
+
+model.push_to_hub(repo_name)
+tokenizer.push_to_hub(repo_name)
