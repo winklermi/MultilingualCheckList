@@ -1,0 +1,64 @@
+Negation
+
+DEU: Sanity Check
+Test cases:      66
+Fails (rate):    0 (0.0%)
+
+
+DEU: Positive Adjective Negations --> Negative
+Test cases:      33
+Fails (rate):    1 (3.0%)
+
+Example fails:
+Sentence: Das Wetter ist nicht super.
+Gold: negative	Predicted: neutral	Score = 0.5
+----
+
+
+DEU: Positive Phrase Negations --> Negative
+Test cases:      66
+Fails (rate):    35 (53.0%)
+
+Example fails:
+Sentence: Ich hasse, dass das Bild super ist.
+Gold: negative	Predicted: positive	Score = 0.87
+----
+Sentence: Ich hasse, dass die Zeit super ist.
+Gold: negative	Predicted: positive	Score = 0.9
+----
+Sentence: Ich hasse, dass das Spiel super ist.
+Gold: negative	Predicted: positive	Score = 0.82
+----
+
+
+DEU: Negative Adjective Negations --> Positive
+Test cases:      33
+Fails (rate):    2 (6.1%)
+
+Example fails:
+Sentence: Das Bild ist nicht schlecht.
+Gold: positive	Predicted: neutral	Score = 0.49
+----
+Sentence: Das Bild ist nicht langweilig.
+Gold: positive	Predicted: negative	Score = 0.42
+----
+
+
+DEU: Negative Phrases with Positive Additions --> Positive
+Test cases:      66
+Fails (rate):    47 (71.2%)
+
+Example fails:
+Sentence: Ich mag, dass das Bild schlecht ist.
+Gold: positive	Predicted: negative	Score = 0.85
+----
+Sentence: Ich mag, dass das Buch blöd ist.
+Gold: positive	Predicted: negative	Score = 0.83
+----
+Sentence: Ich mag, dass der Mann langweilig ist.
+Gold: positive	Predicted: negative	Score = 0.91
+----
+
+
+
+

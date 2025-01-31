@@ -1,0 +1,333 @@
+
+Test: ENG: Sanity Check
+Predicted: neutral		Score: 0.49		Text: The weather is good.
+Predicted: neutral		Score: 0.57		Text: The weather is bad.
+Predicted: neutral		Score: 0.51		Text: The weather is boring.
+
+Test: ENG: Positive Adjective Negations --> Negative
+Predicted: neutral		Score: 0.63		Text: The weather is not good.
+Predicted: neutral		Score: 0.66		Text: The weather is not nice.
+Predicted: neutral		Score: 0.74		Text: The weather is not great.
+
+Test: ENG: Positive Phrase Negations --> Negative
+Predicted: neutral		Score: 0.55		Text: I hate that the weather is good.
+Predicted: neutral		Score: 0.56		Text: I hate that the weather is nice.
+Predicted: neutral		Score: 0.53		Text: I hate that the weather is great.
+
+Test: ENG: Negative Adjective Negations --> Positive
+Predicted: negative		Score: 0.68		Text: The site is not stupid.
+Predicted: negative		Score: 0.5		Text: The picture is not stupid.
+Predicted: neutral		Score: 0.41		Text: The man is not bad.
+Predicted: neutral		Score: 0.43		Text: The world is not stupid.
+Predicted: neutral		Score: 0.66		Text: The city is not bad.
+Predicted: neutral		Score: 0.43		Text: The city is not boring.
+Predicted: negative		Score: 0.52		Text: The city is not stupid.
+Predicted: neutral		Score: 0.4		Text: The time is not stupid.
+Predicted: neutral		Score: 0.74		Text: The weather is not bad.
+Predicted: neutral		Score: 0.71		Text: The weather is not boring.
+Predicted: neutral		Score: 0.86		Text: The weather is not stupid.
+Predicted: neutral		Score: 0.53		Text: The life is not bad.
+Predicted: negative		Score: 0.4		Text: The life is not stupid.
+
+Test: ENG: Negative Phrases with Positive Additions --> Positive
+Predicted: negative		Score: 0.68		Text: I like that the game is bad.
+Predicted: negative		Score: 0.73		Text: I like that the game is stupid.
+Predicted: negative		Score: 0.81		Text: I like that the site is bad.
+Predicted: negative		Score: 0.82		Text: I like that the site is boring.
+Predicted: negative		Score: 0.73		Text: I like that the site is stupid.
+Predicted: negative		Score: 0.62		Text: I like that the picture is bad.
+Predicted: negative		Score: 0.46		Text: I like that the picture is stupid.
+Predicted: negative		Score: 0.81		Text: I like that the book is bad.
+Predicted: negative		Score: 0.69		Text: I like that the book is boring.
+Predicted: negative		Score: 0.71		Text: I like that the book is stupid.
+Predicted: negative		Score: 0.89		Text: I like that the story is bad.
+Predicted: negative		Score: 0.72		Text: I like that the story is boring.
+Predicted: negative		Score: 0.92		Text: I like that the story is stupid.
+Predicted: neutral		Score: 0.54		Text: I like that the man is bad.
+Predicted: neutral		Score: 0.48		Text: I like that the man is boring.
+Predicted: neutral		Score: 0.61		Text: I like that the man is stupid.
+Predicted: negative		Score: 0.53		Text: I like that the world is boring.
+Predicted: negative		Score: 0.51		Text: I like that the city is bad.
+Predicted: negative		Score: 0.45		Text: I like that the city is stupid.
+Predicted: neutral		Score: 0.58		Text: I like that the weather is bad.
+Predicted: neutral		Score: 0.53		Text: I like that the weather is boring.
+Predicted: neutral		Score: 0.68		Text: I like that the weather is stupid.
+Predicted: negative		Score: 0.51		Text: I like that the life is bad.
+Predicted: negative		Score: 0.59		Text: I like that the life is boring.
+Predicted: negative		Score: 0.81		Text: I love that the game is bad.
+Predicted: negative		Score: 0.94		Text: I love that the game is boring.
+Predicted: negative		Score: 0.97		Text: I love that the game is stupid.
+Predicted: negative		Score: 0.85		Text: I love that the site is bad.
+Predicted: negative		Score: 0.94		Text: I love that the site is boring.
+Predicted: negative		Score: 0.9		Text: I love that the site is stupid.
+Predicted: negative		Score: 0.69		Text: I love that the picture is bad.
+Predicted: negative		Score: 0.84		Text: I love that the picture is boring.
+Predicted: negative		Score: 0.91		Text: I love that the picture is stupid.
+Predicted: negative		Score: 0.91		Text: I love that the book is bad.
+Predicted: negative		Score: 0.95		Text: I love that the book is boring.
+Predicted: negative		Score: 0.94		Text: I love that the book is stupid.
+Predicted: negative		Score: 0.68		Text: I love that the story is bad.
+Predicted: negative		Score: 0.94		Text: I love that the story is boring.
+Predicted: negative		Score: 0.96		Text: I love that the story is stupid.
+Predicted: negative		Score: 0.74		Text: I love that the man is boring.
+Predicted: neutral		Score: 0.43		Text: I love that the man is stupid.
+Predicted: negative		Score: 0.78		Text: I love that the world is boring.
+Predicted: negative		Score: 0.65		Text: I love that the world is stupid.
+Predicted: negative		Score: 0.49		Text: I love that the city is bad.
+Predicted: negative		Score: 0.71		Text: I love that the city is boring.
+Predicted: negative		Score: 0.61		Text: I love that the city is stupid.
+Predicted: negative		Score: 0.58		Text: I love that the time is stupid.
+Predicted: neutral		Score: 0.69		Text: I love that the weather is bad.
+Predicted: neutral		Score: 0.53		Text: I love that the weather is boring.
+Predicted: neutral		Score: 0.89		Text: I love that the weather is stupid.
+Predicted: negative		Score: 0.67		Text: I love that the life is bad.
+Predicted: negative		Score: 0.91		Text: I love that the life is boring.
+Predicted: negative		Score: 0.61		Text: I love that the life is stupid.
+
+Test: DEU: Sanity Check
+
+Test: DEU: Positive Adjective Negations --> Negative
+Predicted: neutral		Score: 0.5		Text: Das Wetter ist nicht super.
+
+Test: DEU: Positive Phrase Negations --> Negative
+Predicted: positive		Score: 0.85		Text: Ich hasse, dass das Spiel gut ist.
+Predicted: positive		Score: 0.82		Text: Ich hasse, dass das Spiel schön ist.
+Predicted: positive		Score: 0.82		Text: Ich hasse, dass das Spiel super ist.
+Predicted: positive		Score: 0.82		Text: Ich hasse, dass die Seite gut ist.
+Predicted: positive		Score: 0.79		Text: Ich hasse, dass die Seite schön ist.
+Predicted: positive		Score: 0.87		Text: Ich hasse, dass die Seite super ist.
+Predicted: positive		Score: 0.8		Text: Ich hasse, dass das Bild gut ist.
+Predicted: positive		Score: 0.87		Text: Ich hasse, dass das Bild schön ist.
+Predicted: positive		Score: 0.87		Text: Ich hasse, dass das Bild super ist.
+Predicted: positive		Score: 0.89		Text: Ich hasse, dass das Buch gut ist.
+Predicted: positive		Score: 0.92		Text: Ich hasse, dass das Buch schön ist.
+Predicted: positive		Score: 0.95		Text: Ich hasse, dass das Buch super ist.
+Predicted: positive		Score: 0.79		Text: Ich hasse, dass die Geschichte gut ist.
+Predicted: positive		Score: 0.85		Text: Ich hasse, dass die Geschichte schön ist.
+Predicted: positive		Score: 0.95		Text: Ich hasse, dass die Geschichte super ist.
+Predicted: positive		Score: 0.84		Text: Ich hasse, dass der Mann gut ist.
+Predicted: positive		Score: 0.89		Text: Ich hasse, dass der Mann schön ist.
+Predicted: positive		Score: 0.92		Text: Ich hasse, dass der Mann super ist.
+Predicted: positive		Score: 0.91		Text: Ich hasse, dass die Welt gut ist.
+Predicted: positive		Score: 0.9		Text: Ich hasse, dass die Welt schön ist.
+Predicted: positive		Score: 0.89		Text: Ich hasse, dass die Welt super ist.
+Predicted: positive		Score: 0.76		Text: Ich hasse, dass die Stadt gut ist.
+Predicted: positive		Score: 0.76		Text: Ich hasse, dass die Stadt schön ist.
+Predicted: positive		Score: 0.8		Text: Ich hasse, dass die Stadt super ist.
+Predicted: positive		Score: 0.9		Text: Ich hasse, dass die Zeit gut ist.
+Predicted: positive		Score: 0.79		Text: Ich hasse, dass die Zeit schön ist.
+Predicted: positive		Score: 0.9		Text: Ich hasse, dass die Zeit super ist.
+Predicted: positive		Score: 0.75		Text: Ich hasse, dass das Wetter gut ist.
+Predicted: positive		Score: 0.8		Text: Ich hasse, dass das Wetter schön ist.
+Predicted: positive		Score: 0.8		Text: Ich hasse, dass das Wetter super ist.
+Predicted: positive		Score: 0.84		Text: Ich hasse, dass das Leben gut ist.
+Predicted: positive		Score: 0.92		Text: Ich hasse, dass das Leben schön ist.
+Predicted: positive		Score: 0.91		Text: Ich hasse, dass das Leben super ist.
+Predicted: positive		Score: 0.48		Text: Ich mag nicht, dass das Leben gut ist.
+Predicted: positive		Score: 0.42		Text: Ich mag nicht, dass das Leben super ist.
+
+Test: DEU: Negative Adjective Negations --> Positive
+Predicted: neutral		Score: 0.49		Text: Das Bild ist nicht schlecht.
+Predicted: negative		Score: 0.42		Text: Das Bild ist nicht langweilig.
+
+Test: DEU: Negative Phrases with Positive Additions --> Positive
+Predicted: negative		Score: 0.78		Text: Ich mag, dass das Spiel schlecht ist.
+Predicted: negative		Score: 0.92		Text: Ich mag, dass das Spiel langweilig ist.
+Predicted: negative		Score: 0.74		Text: Ich mag, dass das Spiel blöd ist.
+Predicted: negative		Score: 0.81		Text: Ich mag, dass die Seite schlecht ist.
+Predicted: negative		Score: 0.92		Text: Ich mag, dass die Seite langweilig ist.
+Predicted: negative		Score: 0.76		Text: Ich mag, dass die Seite blöd ist.
+Predicted: negative		Score: 0.85		Text: Ich mag, dass das Bild schlecht ist.
+Predicted: negative		Score: 0.9		Text: Ich mag, dass das Bild langweilig ist.
+Predicted: negative		Score: 0.79		Text: Ich mag, dass das Bild blöd ist.
+Predicted: negative		Score: 0.84		Text: Ich mag, dass das Buch schlecht ist.
+Predicted: negative		Score: 0.88		Text: Ich mag, dass das Buch langweilig ist.
+Predicted: negative		Score: 0.83		Text: Ich mag, dass das Buch blöd ist.
+Predicted: negative		Score: 0.73		Text: Ich mag, dass die Geschichte schlecht ist.
+Predicted: negative		Score: 0.83		Text: Ich mag, dass die Geschichte langweilig ist.
+Predicted: negative		Score: 0.61		Text: Ich mag, dass die Geschichte blöd ist.
+Predicted: negative		Score: 0.73		Text: Ich mag, dass der Mann schlecht ist.
+Predicted: negative		Score: 0.91		Text: Ich mag, dass der Mann langweilig ist.
+Predicted: negative		Score: 0.75		Text: Ich mag, dass der Mann blöd ist.
+Predicted: negative		Score: 0.87		Text: Ich mag, dass die Welt schlecht ist.
+Predicted: negative		Score: 0.85		Text: Ich mag, dass die Welt langweilig ist.
+Predicted: negative		Score: 0.84		Text: Ich mag, dass die Welt blöd ist.
+Predicted: negative		Score: 0.87		Text: Ich mag, dass die Stadt schlecht ist.
+Predicted: negative		Score: 0.93		Text: Ich mag, dass die Stadt langweilig ist.
+Predicted: negative		Score: 0.8		Text: Ich mag, dass die Stadt blöd ist.
+Predicted: negative		Score: 0.7		Text: Ich mag, dass die Zeit schlecht ist.
+Predicted: negative		Score: 0.9		Text: Ich mag, dass die Zeit langweilig ist.
+Predicted: negative		Score: 0.58		Text: Ich mag, dass die Zeit blöd ist.
+Predicted: negative		Score: 0.69		Text: Ich mag, dass das Wetter schlecht ist.
+Predicted: negative		Score: 0.86		Text: Ich mag, dass das Wetter langweilig ist.
+Predicted: negative		Score: 0.5		Text: Ich mag, dass das Wetter blöd ist.
+Predicted: negative		Score: 0.92		Text: Ich mag, dass das Leben schlecht ist.
+Predicted: negative		Score: 0.92		Text: Ich mag, dass das Leben langweilig ist.
+Predicted: negative		Score: 0.84		Text: Ich mag, dass das Leben blöd ist.
+Predicted: negative		Score: 0.51		Text: Ich liebe, dass das Spiel langweilig ist.
+Predicted: negative		Score: 0.54		Text: Ich liebe, dass die Seite schlecht ist.
+Predicted: negative		Score: 0.81		Text: Ich liebe, dass die Seite langweilig ist.
+Predicted: negative		Score: 0.8		Text: Ich liebe, dass das Bild langweilig ist.
+Predicted: negative		Score: 0.5		Text: Ich liebe, dass das Buch langweilig ist.
+Predicted: negative		Score: 0.45		Text: Ich liebe, dass die Geschichte schlecht ist.
+Predicted: negative		Score: 0.73		Text: Ich liebe, dass die Geschichte langweilig ist.
+Predicted: negative		Score: 0.79		Text: Ich liebe, dass der Mann langweilig ist.
+Predicted: negative		Score: 0.64		Text: Ich liebe, dass die Stadt schlecht ist.
+Predicted: negative		Score: 0.65		Text: Ich liebe, dass die Stadt langweilig ist.
+Predicted: negative		Score: 0.55		Text: Ich liebe, dass die Zeit langweilig ist.
+Predicted: negative		Score: 0.49		Text: Ich liebe, dass das Wetter langweilig ist.
+Predicted: negative		Score: 0.62		Text: Ich liebe, dass das Leben schlecht ist.
+Predicted: negative		Score: 0.86		Text: Ich liebe, dass das Leben langweilig ist.
+
+Test: BAR: Sanity Check
+Predicted: negative		Score: 0.68		Text: Des Spui is guad.
+Predicted: negative		Score: 0.63		Text: Des Spui is schee.
+Predicted: negative		Score: 0.74		Text: Des Spui is subba.
+Predicted: negative		Score: 0.46		Text: De Seitn is guad.
+Predicted: negative		Score: 0.63		Text: De Seitn is schee.
+Predicted: negative		Score: 0.56		Text: De Seitn is subba.
+Predicted: neutral		Score: 0.59		Text: Des Buidl is guad.
+Predicted: negative		Score: 0.67		Text: Des Buidl is schee.
+Predicted: negative		Score: 0.47		Text: Des Buidl is subba.
+Predicted: negative		Score: 0.64		Text: Des Buach is guad.
+Predicted: negative		Score: 0.62		Text: Des Buach is schee.
+Predicted: negative		Score: 0.56		Text: Des Buach is subba.
+Predicted: negative		Score: 0.76		Text: De Gschicht is guad.
+Predicted: negative		Score: 0.82		Text: De Gschicht is schee.
+Predicted: negative		Score: 0.6		Text: De Gschicht is subba.
+Predicted: neutral		Score: 0.48		Text: Der Mo is guad.
+Predicted: negative		Score: 0.52		Text: Der Mo is schee.
+Predicted: negative		Score: 0.56		Text: Der Mo is subba.
+Predicted: negative		Score: 0.47		Text: D'Weid is guad.
+Predicted: neutral		Score: 0.54		Text: D'Weid is schee.
+Predicted: negative		Score: 0.74		Text: D'Weid is subba.
+Predicted: negative		Score: 0.41		Text: D'Stod is guad.
+Predicted: negative		Score: 0.62		Text: D'Stod is schee.
+Predicted: negative		Score: 0.49		Text: D'Stod is subba.
+Predicted: negative		Score: 0.62		Text: D'Zeid is guad.
+Predicted: neutral		Score: 0.67		Text: D'Zeid is schee.
+Predicted: negative		Score: 0.54		Text: D'Zeid is subba.
+Predicted: negative		Score: 0.79		Text: S'Weda is guad.
+Predicted: negative		Score: 0.73		Text: S'Weda is schee.
+Predicted: negative		Score: 0.82		Text: S'Weda is subba.
+Predicted: negative		Score: 0.6		Text: S'Lebm is guad.
+Predicted: negative		Score: 0.53		Text: S'Lebm is schee.
+Predicted: negative		Score: 0.54		Text: S'Lebm is subba.
+Predicted: neutral		Score: 0.59		Text: Des Buidl is guad.
+Predicted: neutral		Score: 0.48		Text: Der Mo is guad.
+Predicted: neutral		Score: 0.54		Text: D'Weid is schee.
+Predicted: neutral		Score: 0.67		Text: D'Zeid is schee.
+
+Test: BAR: Positive Adjective Negations --> Negative
+Predicted: neutral		Score: 1.0		Text: Des Spui is ned guad.
+Predicted: neutral		Score: 1.0		Text: Des Spui is ned schee.
+Predicted: neutral		Score: 1.0		Text: Des Spui is ned subba.
+Predicted: neutral		Score: 1.0		Text: De Seitn is ned guad.
+Predicted: neutral		Score: 0.76		Text: De Seitn is ned schee.
+Predicted: neutral		Score: 1.0		Text: De Seitn is ned subba.
+Predicted: neutral		Score: 1.0		Text: Des Buidl is ned guad.
+Predicted: neutral		Score: 1.0		Text: Des Buidl is ned schee.
+Predicted: neutral		Score: 1.0		Text: Des Buidl is ned subba.
+Predicted: neutral		Score: 1.0		Text: Des Buach is ned guad.
+Predicted: neutral		Score: 0.99		Text: Des Buach is ned schee.
+Predicted: neutral		Score: 1.0		Text: Des Buach is ned subba.
+Predicted: neutral		Score: 1.0		Text: De Gschicht is ned guad.
+Predicted: neutral		Score: 0.58		Text: De Gschicht is ned schee.
+Predicted: neutral		Score: 0.82		Text: De Gschicht is ned subba.
+Predicted: neutral		Score: 1.0		Text: Der Mo is ned guad.
+Predicted: neutral		Score: 0.98		Text: Der Mo is ned schee.
+Predicted: neutral		Score: 0.98		Text: Der Mo is ned subba.
+Predicted: neutral		Score: 1.0		Text: D'Weid is ned guad.
+Predicted: neutral		Score: 1.0		Text: D'Weid is ned schee.
+Predicted: neutral		Score: 1.0		Text: D'Weid is ned subba.
+Predicted: neutral		Score: 1.0		Text: D'Stod is ned guad.
+Predicted: neutral		Score: 1.0		Text: D'Stod is ned schee.
+Predicted: neutral		Score: 1.0		Text: D'Stod is ned subba.
+Predicted: neutral		Score: 1.0		Text: D'Zeid is ned guad.
+Predicted: neutral		Score: 1.0		Text: D'Zeid is ned schee.
+Predicted: neutral		Score: 1.0		Text: D'Zeid is ned subba.
+Predicted: neutral		Score: 1.0		Text: S'Weda is ned guad.
+Predicted: neutral		Score: 0.9		Text: S'Weda is ned schee.
+Predicted: neutral		Score: 0.99		Text: S'Weda is ned subba.
+Predicted: neutral		Score: 1.0		Text: S'Lebm is ned guad.
+Predicted: neutral		Score: 0.99		Text: S'Lebm is ned schee.
+Predicted: neutral		Score: 0.99		Text: S'Lebm is ned subba.
+
+Test: BAR: Positive Phrase Negations --> Negative
+Predicted: neutral		Score: 0.49		Text: I mog des ned, wenn des Buach subba ist.
+Predicted: neutral		Score: 0.68		Text: I mog des ned, wenn der Mo subba ist.
+Predicted: neutral		Score: 0.53		Text: I mog des ned, wenn d'Stod subba ist.
+
+Test: BAR: Negative Adjective Negations --> Positive
+Predicted: negative		Score: 0.41		Text: Des Spui ist nicht bled.
+Predicted: neutral		Score: 0.44		Text: Des Buidl ist nicht fad.
+Predicted: negative		Score: 0.38		Text: Des Buidl ist nicht bled.
+Predicted: negative		Score: 0.37		Text: Des Buach ist nicht bled.
+Predicted: neutral		Score: 0.46		Text: De Gschicht ist nicht schlecht.
+Predicted: negative		Score: 0.51		Text: De Gschicht ist nicht bled.
+Predicted: neutral		Score: 0.45		Text: Der Mo ist nicht schlecht.
+Predicted: neutral		Score: 0.46		Text: Der Mo ist nicht fad.
+Predicted: negative		Score: 0.53		Text: D'Weid ist nicht bled.
+Predicted: negative		Score: 0.4		Text: D'Stod ist nicht bled.
+Predicted: negative		Score: 0.48		Text: D'Zeid ist nicht bled.
+Predicted: negative		Score: 0.48		Text: S'Lebm ist nicht bled.
+
+Test: BAR: Negative Phrases with Positive Additions --> Positive
+Predicted: negative		Score: 0.58		Text: I mog des, wenn des Spui schlecht ist.
+Predicted: negative		Score: 0.78		Text: I mog des, wenn des Spui fad ist.
+Predicted: negative		Score: 0.62		Text: I mog des, wenn des Spui bled ist.
+Predicted: neutral		Score: 0.4		Text: I mog des, wenn de Seitn schlecht ist.
+Predicted: negative		Score: 0.84		Text: I mog des, wenn de Seitn fad ist.
+Predicted: negative		Score: 0.5		Text: I mog des, wenn de Seitn bled ist.
+Predicted: negative		Score: 0.61		Text: I mog des, wenn des Buidl schlecht ist.
+Predicted: negative		Score: 0.82		Text: I mog des, wenn des Buidl fad ist.
+Predicted: negative		Score: 0.71		Text: I mog des, wenn des Buidl bled ist.
+Predicted: negative		Score: 0.62		Text: I mog des, wenn des Buach schlecht ist.
+Predicted: negative		Score: 0.71		Text: I mog des, wenn des Buach fad ist.
+Predicted: negative		Score: 0.66		Text: I mog des, wenn des Buach bled ist.
+Predicted: negative		Score: 0.57		Text: I mog des, wenn de Gschicht schlecht ist.
+Predicted: negative		Score: 0.87		Text: I mog des, wenn de Gschicht fad ist.
+Predicted: negative		Score: 0.67		Text: I mog des, wenn de Gschicht bled ist.
+Predicted: neutral		Score: 0.53		Text: I mog des, wenn der Mo schlecht ist.
+Predicted: negative		Score: 0.67		Text: I mog des, wenn der Mo fad ist.
+Predicted: negative		Score: 0.53		Text: I mog des, wenn der Mo bled ist.
+Predicted: negative		Score: 0.66		Text: I mog des, wenn d'Weid schlecht ist.
+Predicted: negative		Score: 0.82		Text: I mog des, wenn d'Weid fad ist.
+Predicted: negative		Score: 0.58		Text: I mog des, wenn d'Weid bled ist.
+Predicted: negative		Score: 0.6		Text: I mog des, wenn d'Stod schlecht ist.
+Predicted: negative		Score: 0.7		Text: I mog des, wenn d'Stod fad ist.
+Predicted: negative		Score: 0.74		Text: I mog des, wenn d'Stod bled ist.
+Predicted: negative		Score: 0.59		Text: I mog des, wenn d'Zeid schlecht ist.
+Predicted: negative		Score: 0.81		Text: I mog des, wenn d'Zeid fad ist.
+Predicted: negative		Score: 0.69		Text: I mog des, wenn d'Zeid bled ist.
+Predicted: negative		Score: 0.57		Text: I mog des, wenn s'Weda schlecht ist.
+Predicted: negative		Score: 0.84		Text: I mog des, wenn s'Weda fad ist.
+Predicted: negative		Score: 0.74		Text: I mog des, wenn s'Weda bled ist.
+Predicted: negative		Score: 0.84		Text: I mog des, wenn s'Lebm fad ist.
+Predicted: negative		Score: 0.65		Text: I mog des, wenn s'Lebm bled ist.
+Predicted: negative		Score: 0.52		Text: I liebs, wenn des Spui schlecht ist.
+Predicted: negative		Score: 0.73		Text: I liebs, wenn des Spui fad ist.
+Predicted: negative		Score: 0.66		Text: I liebs, wenn des Spui bled ist.
+Predicted: negative		Score: 0.52		Text: I liebs, wenn de Seitn fad ist.
+Predicted: negative		Score: 0.49		Text: I liebs, wenn des Buidl schlecht ist.
+Predicted: negative		Score: 0.79		Text: I liebs, wenn des Buidl fad ist.
+Predicted: negative		Score: 0.57		Text: I liebs, wenn des Buidl bled ist.
+Predicted: negative		Score: 0.43		Text: I liebs, wenn des Buach schlecht ist.
+Predicted: negative		Score: 0.62		Text: I liebs, wenn des Buach fad ist.
+Predicted: negative		Score: 0.64		Text: I liebs, wenn des Buach bled ist.
+Predicted: negative		Score: 0.72		Text: I liebs, wenn de Gschicht fad ist.
+Predicted: neutral		Score: 0.35		Text: I liebs, wenn de Gschicht bled ist.
+Predicted: neutral		Score: 0.45		Text: I liebs, wenn der Mo schlecht ist.
+Predicted: negative		Score: 0.61		Text: I liebs, wenn der Mo fad ist.
+Predicted: negative		Score: 0.48		Text: I liebs, wenn der Mo bled ist.
+Predicted: negative		Score: 0.76		Text: I liebs, wenn d'Weid fad ist.
+Predicted: negative		Score: 0.46		Text: I liebs, wenn d'Weid bled ist.
+Predicted: negative		Score: 0.72		Text: I liebs, wenn d'Stod fad ist.
+Predicted: negative		Score: 0.68		Text: I liebs, wenn d'Stod bled ist.
+Predicted: negative		Score: 0.66		Text: I liebs, wenn d'Zeid fad ist.
+Predicted: negative		Score: 0.5		Text: I liebs, wenn d'Zeid bled ist.
+Predicted: negative		Score: 0.54		Text: I liebs, wenn s'Weda schlecht ist.
+Predicted: negative		Score: 0.65		Text: I liebs, wenn s'Weda fad ist.
+Predicted: negative		Score: 0.66		Text: I liebs, wenn s'Weda bled ist.
+Predicted: negative		Score: 0.8		Text: I liebs, wenn s'Lebm fad ist.
+Predicted: negative		Score: 0.58		Text: I liebs, wenn s'Lebm bled ist.

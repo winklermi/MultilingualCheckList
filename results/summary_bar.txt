@@ -1,0 +1,84 @@
+Negation
+
+BAR: Sanity Check
+Test cases:      66
+Fails (rate):    37 (56.1%)
+
+Example fails:
+Sentence: S'Weda is subba.
+Gold: positive	Predicted: negative	Score = 0.82
+----
+Sentence: Des Buach is schee.
+Gold: positive	Predicted: negative	Score = 0.62
+----
+Sentence: D'Weid is guad.
+Gold: positive	Predicted: negative	Score = 0.47
+----
+
+
+BAR: Positive Adjective Negations --> Negative
+Test cases:      33
+Fails (rate):    33 (100.0%)
+
+Example fails:
+Sentence: S'Weda is ned subba.
+Gold: negative	Predicted: neutral	Score = 0.99
+----
+Sentence: Der Mo is ned guad.
+Gold: negative	Predicted: neutral	Score = 1.0
+----
+Sentence: D'Weid is ned subba.
+Gold: negative	Predicted: neutral	Score = 1.0
+----
+
+
+BAR: Positive Phrase Negations --> Negative
+Test cases:      66
+Fails (rate):    3 (4.5%)
+
+Example fails:
+Sentence: I mog des ned, wenn der Mo subba ist.
+Gold: negative	Predicted: neutral	Score = 0.68
+----
+Sentence: I mog des ned, wenn d'Stod subba ist.
+Gold: negative	Predicted: neutral	Score = 0.53
+----
+Sentence: I mog des ned, wenn des Buach subba ist.
+Gold: negative	Predicted: neutral	Score = 0.49
+----
+
+
+BAR: Negative Adjective Negations --> Positive
+Test cases:      33
+Fails (rate):    12 (36.4%)
+
+Example fails:
+Sentence: D'Stod ist nicht bled.
+Gold: positive	Predicted: negative	Score = 0.4
+----
+Sentence: Der Mo ist nicht fad.
+Gold: positive	Predicted: neutral	Score = 0.46
+----
+Sentence: De Gschicht ist nicht schlecht.
+Gold: positive	Predicted: neutral	Score = 0.46
+----
+
+
+BAR: Negative Phrases with Positive Additions --> Positive
+Test cases:      66
+Fails (rate):    58 (87.9%)
+
+Example fails:
+Sentence: I mog des, wenn des Spui bled ist.
+Gold: positive	Predicted: negative	Score = 0.62
+----
+Sentence: I liebs, wenn d'Stod bled ist.
+Gold: positive	Predicted: negative	Score = 0.68
+----
+Sentence: I liebs, wenn des Spui fad ist.
+Gold: positive	Predicted: negative	Score = 0.73
+----
+
+
+
+

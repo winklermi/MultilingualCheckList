@@ -1,0 +1,84 @@
+Negation
+
+ENG: Sanity Check
+Test cases:      66
+Fails (rate):    3 (4.5%)
+
+Example fails:
+Sentence: The weather is boring.
+Gold: negative	Predicted: neutral	Score = 0.51
+----
+Sentence: The weather is bad.
+Gold: negative	Predicted: neutral	Score = 0.57
+----
+Sentence: The weather is good.
+Gold: positive	Predicted: neutral	Score = 0.49
+----
+
+
+ENG: Positive Adjective Negations --> Negative
+Test cases:      33
+Fails (rate):    3 (9.1%)
+
+Example fails:
+Sentence: The weather is not nice.
+Gold: negative	Predicted: neutral	Score = 0.66
+----
+Sentence: The weather is not great.
+Gold: negative	Predicted: neutral	Score = 0.74
+----
+Sentence: The weather is not good.
+Gold: negative	Predicted: neutral	Score = 0.63
+----
+
+
+ENG: Positive Phrase Negations --> Negative
+Test cases:      66
+Fails (rate):    3 (4.5%)
+
+Example fails:
+Sentence: I hate that the weather is great.
+Gold: negative	Predicted: neutral	Score = 0.53
+----
+Sentence: I hate that the weather is nice.
+Gold: negative	Predicted: neutral	Score = 0.56
+----
+Sentence: I hate that the weather is good.
+Gold: negative	Predicted: neutral	Score = 0.55
+----
+
+
+ENG: Negative Adjective Negations --> Positive
+Test cases:      33
+Fails (rate):    13 (39.4%)
+
+Example fails:
+Sentence: The life is not stupid.
+Gold: positive	Predicted: negative	Score = 0.4
+----
+Sentence: The weather is not bad.
+Gold: positive	Predicted: neutral	Score = 0.74
+----
+Sentence: The site is not stupid.
+Gold: positive	Predicted: negative	Score = 0.68
+----
+
+
+ENG: Negative Phrases with Positive Additions --> Positive
+Test cases:      66
+Fails (rate):    53 (80.3%)
+
+Example fails:
+Sentence: I love that the picture is stupid.
+Gold: positive	Predicted: negative	Score = 0.91
+----
+Sentence: I love that the book is boring.
+Gold: positive	Predicted: negative	Score = 0.95
+----
+Sentence: I like that the site is stupid.
+Gold: positive	Predicted: negative	Score = 0.73
+----
+
+
+
+
