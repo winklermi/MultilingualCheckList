@@ -15,22 +15,6 @@ Gold: negative	Predicted: neutral	Score = 0.5
 ----
 
 
-DEU: Positive Phrase Negations --> Negative
-Test cases:      66
-Fails (rate):    35 (53.0%)
-
-Example fails:
-Sentence: Ich hasse, dass das Bild super ist.
-Gold: negative	Predicted: positive	Score = 0.87
-----
-Sentence: Ich hasse, dass die Zeit super ist.
-Gold: negative	Predicted: positive	Score = 0.9
-----
-Sentence: Ich hasse, dass das Spiel super ist.
-Gold: negative	Predicted: positive	Score = 0.82
-----
-
-
 DEU: Negative Adjective Negations --> Positive
 Test cases:      33
 Fails (rate):    2 (6.1%)
@@ -44,19 +28,35 @@ Gold: positive	Predicted: negative	Score = 0.42
 ----
 
 
+DEU: Positive Phrase Negations --> Negative
+Test cases:      66
+Fails (rate):    35 (53.0%)
+
+Example fails:
+Sentence: Ich hasse, dass das Leben super ist.
+Gold: negative	Predicted: positive	Score = 0.91
+----
+Sentence: Ich hasse, dass das Bild gut ist.
+Gold: negative	Predicted: positive	Score = 0.8
+----
+Sentence: Ich hasse, dass die Welt schön ist.
+Gold: negative	Predicted: positive	Score = 0.9
+----
+
+
 DEU: Negative Phrases with Positive Additions --> Positive
 Test cases:      66
 Fails (rate):    47 (71.2%)
 
 Example fails:
-Sentence: Ich mag, dass das Bild schlecht ist.
-Gold: positive	Predicted: negative	Score = 0.85
+Sentence: Ich liebe, dass die Zeit langweilig ist.
+Gold: positive	Predicted: negative	Score = 0.55
 ----
-Sentence: Ich mag, dass das Buch blöd ist.
+Sentence: Ich mag, dass die Geschichte langweilig ist.
 Gold: positive	Predicted: negative	Score = 0.83
 ----
-Sentence: Ich mag, dass der Mann langweilig ist.
-Gold: positive	Predicted: negative	Score = 0.91
+Sentence: Ich mag, dass die Welt blöd ist.
+Gold: positive	Predicted: negative	Score = 0.84
 ----
 
 
